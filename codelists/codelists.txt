@@ -3,3 +3,6 @@ nhsd-primary-care-domain-refsets/codes-for-intolerance-to-statins/20241205/
 nhsd-primary-care-domain-refsets/codes-indicating-adverse-reaction-to-atorvastatin/20241205/
 nhsd-primary-care-domain-refsets/codes-indicating-contraindication-to-any-statin/20241205/
 nhsd-primary-care-domain-refsets/statindec_cod/20241205/
+opensafely/ethnicity-snomed-0removed/22911876/
+opensafely/cvd-risk-assessment-score-qof/1adf44a5/
+nhsd-primary-care-domain-refsets/qriskscore_cod/20241205

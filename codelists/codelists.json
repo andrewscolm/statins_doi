@@ -1,5 +1,23 @@
 {
   "files": {
+    "nhsd-primary-care-domain-refsets-qriskscore_cod.csv": {
+      "id": "nhsd-primary-care-domain-refsets/qriskscore_cod/20241205",
+      "url": "https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/qriskscore_cod/20241205/",
+      "downloaded_at": "2025-03-19 19:35:26.016033Z",
+      "sha": "1aeeb9585dbe172f387c1f41ea7b59f0ca09cb4c"
+    },
+    "opensafely-cvd-risk-assessment-score-qof.csv": {
+      "id": "opensafely/cvd-risk-assessment-score-qof/1adf44a5",
+      "url": "https://www.opencodelists.org/codelist/opensafely/cvd-risk-assessment-score-qof/1adf44a5/",
+      "downloaded_at": "2025-03-19 19:31:12.960425Z",
+      "sha": "c341fab5432dd22087effcb036a98b7964b21be5"
+    },
+    "opensafely-ethnicity-snomed-0removed.csv": {
+      "id": "opensafely/ethnicity-snomed-0removed/22911876",
+      "url": "https://www.opencodelists.org/codelist/opensafely/ethnicity-snomed-0removed/22911876/",
+      "downloaded_at": "2025-03-19 19:14:40.204859Z",
+      "sha": "d95a2f826299563aa57f6fa99009e6e13a65151b"
+    },
     "nhsd-primary-care-domain-refsets-statindec_cod.csv": {
       "id": "nhsd-primary-care-domain-refsets/statindec_cod/20241205",
       "url": "https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/statindec_cod/20241205/",
