@@ -1,5 +1,41 @@
 {
   "files": {
+    "nhsd-primary-care-domain-refsets-statindec_cod.csv": {
+      "id": "nhsd-primary-care-domain-refsets/statindec_cod/20241205",
+      "url": "https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/statindec_cod/20241205/",
+      "downloaded_at": "2025-03-19 19:02:35.967192Z",
+      "sha": "26e0f233fa3bebd30f5c8d06667bf03720d31d57"
+    },
+    "nhsd-primary-care-domain-refsets-codes-indicating-contraindication-to-any-statin.csv": {
+      "id": "nhsd-primary-care-domain-refsets/codes-indicating-contraindication-to-any-statin/20241205",
+      "url": "https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/codes-indicating-contraindication-to-any-statin/20241205/",
+      "downloaded_at": "2025-03-19 19:02:11.222695Z",
+      "sha": "2f22ab9b71f72d94bd46dfc1649d6e84c39a25bd"
+    },
+    "nhsd-primary-care-domain-refsets-codes-indicating-adverse-reaction-to-atorvastatin.csv": {
+      "id": "nhsd-primary-care-domain-refsets/codes-indicating-adverse-reaction-to-atorvastatin/20241205",
+      "url": "https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/codes-indicating-adverse-reaction-to-atorvastatin/20241205/",
+      "downloaded_at": "2025-03-19 19:01:54.047100Z",
+      "sha": "416a5b46937e545e05c8bb7fb3c0f121a8df50cf"
+    },
+    "nhsd-primary-care-domain-refsets-codes-for-intolerance-to-statins.csv": {
+      "id": "nhsd-primary-care-domain-refsets/codes-for-intolerance-to-statins/20241205",
+      "url": "https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/codes-for-intolerance-to-statins/20241205/",
+      "downloaded_at": "2025-03-19 19:01:38.628029Z",
+      "sha": "760282538ad0616bb3dcaf1f3c70d33a1cda03cd"
+    },
+    "openprescribing-all-statins.csv": {
+      "id": "openprescribing/all-statins/542a136e",
+      "url": "https://www.opencodelists.org/codelist/openprescribing/all-statins/542a136e/",
+      "downloaded_at": "2025-03-19 19:01:01.787241Z",
+      "sha": "4df47f7865b1ac9fff862d9ed3ed671ae8877527"
+    },
+    "opensafely-covid-identification.csv": {
+      "id": "opensafely/covid-identification/2020-06-03",
+      "url": "https://www.opencodelists.org/codelist/opensafely/covid-identification/2020-06-03/",
+      "downloaded_at": "2025-03-19 19:00:22.923553Z",
+      "sha": "124db6929439379b7dacd55ba26ae4f2ed9370bc"
+    },
     "nhsd-primary-care-domain-refsets-dm_cod.csv": {
       "id": "nhsd-primary-care-domain-refsets/dm_cod/20200812",
       "url": "https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/dm_cod/20200812/",
