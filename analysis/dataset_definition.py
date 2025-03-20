@@ -9,7 +9,7 @@
 #   University of Oxford, 2024
 #####################################################################
 
-from ehrql import Dataset, years
+from ehrql import Dataset, years, show
 from ehrql.tables.tpp import (
     medications, 
     practice_registrations,
@@ -24,7 +24,7 @@ def make_dataset_statin(index_date, end_date):
 
     ## Define relevant variables
 
-    dataset.atorvastatin = medications.where(medications.dmd_code.is_in(statin_code)
+    dataset.atorvastatin = medications.where(medications.dmd_code.is_in(codelists.statin_code)
             ).where(
                 medications.date.is_on_or_between(index_date, end_date)
             ).exists_for_patient()
@@ -39,7 +39,7 @@ def make_dataset_statin(index_date, end_date):
         clinical_events.snomedct_code.is_in(codelists.declined)
     ).where(
         clinical_events.snomedct_code.is_in(codelists.intolerence)
-    ).exists_for_patient
+    ).exists_for_patient()
 
     dataset.qrisk = clinical_events.where(
         clinical_events.snomedct_code.is_in(codelists.qrisk)
@@ -48,3 +48,6 @@ def make_dataset_statin(index_date, end_date):
 
 
     return dataset
+
+make_dataset_statin(index_date="2022-04-01", end_date="2022-06-30")
+show(dataset)
