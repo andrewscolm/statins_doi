@@ -53,17 +53,15 @@ cvd_risk = codelist_from_csv(
 column = "code",
 )
 
-
 ## Ethnicity
-ethnicity_codes_16 = codelist_from_csv(
-    "codelists/opensafely-ethnicity-snomed-0removed.csv",
-    column="code",
-    category_column="Grouping_16",
+ethnicity5 = codelist_from_csv(
+  "codelists/opensafely-ethnicity-snomed-0removed.csv",
+  column="code",
+  category_column="Label_6", # it's 6 because there is an additional "6 - Not stated" category, but this is not represented in SNOMED, instead corresponding to no ethnicity code
 )
 
-## Ethnicity
-ethnicity_codes_6 = codelist_from_csv(
-    "codelists/opensafely-ethnicity-snomed-0removed.csv",
-    column="code",
-    category_column="Grouping_6",
+ethnicity16 = codelist_from_csv(
+  "codelists/opensafely-ethnicity-snomed-0removed.csv",
+  column="code",
+  category_column="Label_16",
 )
